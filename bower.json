@@ -1,0 +1,14 @@
+{
+  "name": "my_site",
+  "version": "0.0.0",
+  "authors": [
+    "Константин <kostya_po@mail.ru>"
+  ],
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize.css": "~3.0.3",
+    "modernizer": "~2.8.2"
+  }
+}
