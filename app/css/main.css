@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+	background: url(../images/background.png) repeat;
+	font: normal 1em 'fira_sanslight';
+	color: #4a545d;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  min-width: 970px;
+}
+
+.content {
+  padding-bottom: 90px;
+}
+/*
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+*/
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+/* header */
+.header-container{
+	max-width: 1200px;
+	min-width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header-block{
+	position: relative;
+	background: #eff3f7;
+	height: 119px;
+	width: 100%;
+	margin-bottom: 39px;
+}
+
+.header-block .a-logo{
+	top: 39px;
+	left: 0;
+	position: absolute;
+}
+
+.logo-text{
+	position: absolute;
+	left: -9999px;
+}
+
+.logo-img{
+	
+}
+
+.header-block .socials{
+	margin: 0; 
+    padding: 4px; 
+    position: absolute;
+    right: 0;
+    top: 36px;
+}
+  
+.social-li{
+	display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.a-social{
+	text-indent: -9999px;
+	width: 47px;
+	height: 47px;
+}
+
+/* end header*/
+/* clerfix */
+
+.container:before, .clearfix:before, 
+.container:after, .clearfix:after{
+	content: " ";
+	display: table;
+}
+
+.container:after, clearfix:after{
+	clear: both;
+}
+/* end clerfix */
+/*==================================*/
+
+.main-content{
+
+}
+
+.sidebar{
+	width: 250px;
+	margin: 0px 20px 0px 20px;
+}
+
+.navigation{
+
+}
+
+.ul-nav{
+	background-color: #eff3f7;
+}
+
+.li-nav{
+	height: 50px;
+}
+
+.a-nav{
+
+}
+
+.contacts{
+
+}
+
+/*---------------*/
+
+.general-section{
+
+}
+
+.section-block{
+
+}
+
+.title-section{
+
+}
+
+.section-body{
+
+}
+
+.img-block{
+
+}
+
+.avatar-box{
+
+}
+
+.avatar{
+
+}
+
+.info-block{
+
+}
+
+.info-list{
+
+}
+
+.info-item{
+
+}
+
+.what{
+
+}
+
+.info{
+
+}
+
+.skills-list{
+
+}
+
+.skills-item{
+
+}
+
+/*==================================*/
+.footer-block {
+  background: #eff3f7;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.container-footer{
+	min-width: 970px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 23px;
+	position: relative;
+}
+
+.hide-text {
+   text-indent: -9999px;
+}
+
+.footer-block .lock {
+	position: absolute;
+	top: 26px;
+	left: 20px;
+}
+
+.lock {
+	
+}
+
+.a-lock:hover{
+
+}
+
+.footer-block .copyright {
+	text-align: center;
+	margin: 0px 180px;
+	padding-top: 7px;
+	font-size: 13px;
+	position: relative;
+}
+
+
