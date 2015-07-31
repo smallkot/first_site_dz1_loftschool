@@ -37,13 +37,6 @@ body {
 }
 
 /* header */
-.header-container{
-	max-width: 1200px;
-	min-width: 960px;
-	height: 100%;
-	margin: 0 auto;
-	position: relative;
-}
 
 .header-block{
 	position: relative;
@@ -53,10 +46,18 @@ body {
 	margin-bottom: 39px;
 }
 
+.header-container{
+	max-width: 1200px;
+	min-width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
 .header-block .a-logo{
 	top: 39px;
 	left: 0;
-	position: absolute;
+	position: relative;
 }
 
 .logo-text{
@@ -106,33 +107,69 @@ body {
 
 .main-content{
 	width: 960px;
+	margin: 0 auto;
 }
 
 .sidebar{
 	width: 250px;
-	left: 20px;
 }
 
 .navigation{
-
+	overflow: hidden;
+	height: 150px;
+	border-radius: 4px;
 }
 
 .ul-nav{
 	background-color: #eff3f7;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .li-nav{
-	height: 50px;
-	list-style: none;
+	border-top: 2px solid #3ba8c0;
+	margin: 0 11px;
 }
 
 .a-nav{
-	width: 100%;
-	height: 100%;
+	font-family: 'fira_sansbook';
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	color: #959aa8;
+	margin-left: 16px;
+	padding: 20px 0px;
+}
+/*----- contact --------------*/
+.contacts{
+	padding-top: 20px;
 }
 
-.contacts{
+.ul-contacts{
+	list-style: none;
+	border-radius: 3px;
+}
 
+.li-contact{
+	height: 40px;
+	width: 100%;
+}
+
+.li-title{
+	background-color: #3ba8c0;
+}
+
+.email{
+	background-color: #41b9d4;
+}
+
+.phone{
+	background-color: #48cbe8;
+}
+
+.skype{
+	background-color: #51daf8;
 }
 
 /*---------------*/
@@ -204,10 +241,9 @@ body {
 }
 
 .container-footer{
-	min-width: 970px;
+	width: 970px;
 	height: 100%;
 	margin: 0 auto;
-	padding-top: 23px;
 	position: relative;
 }
 
