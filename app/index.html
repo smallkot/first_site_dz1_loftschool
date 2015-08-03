@@ -16,7 +16,7 @@
 
 	<link rel="stylesheet" type="text/css" href="font/fira.css">
 	
-	<link rel="stylesheet" href="bower/normalize.css">
+	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 
 	<script src="bower/modernizer/modernizr.js"></script>
@@ -32,27 +32,55 @@
 			    	</a>
 			    	<ul class="socials">
 			    		<li class="social-li"><a href="vk.com" class="a-social sprite sprite-vk">vk.com</a></li>
+			    		<li class="social-li"><a href="twitter.com" class="a-social sprite sprite-tw">twitter.com</a></li>
 			    		<li class="social-li"><a href="fb.com" class="a-social sprite sprite-fb">fb.com</a></li>
 			    		<li class="social-li"><a href="github.com" class="a-social sprite sprite-git">github.com</a></li>
 			    	</ul>
 			    </div>
+			    <hr class="gradient">
 			</header>	
 
-			<div class="main-content">
+			<div class="main-content clearfix">
 				<aside class="sidebar float-left">
 					<nav class="navigation">
 						<ul class="ul-nav">
-							<li class="li-nav"><a href="" class="a-nav">main</a></li>
-							<li class="li-nav"><a href="" class="a-nav">my_jobs</a></li>
-							<li class="li-nav"><a href="" class="a-nav">contact</a></li>
+							<li class="li-nav current"><a href="" class="a-nav">Обо мне</a></li>
+							<li class="li-nav"><a href="" class="a-nav">Мои работы</a></li>
+							<li class="li-nav"><a href="" class="a-nav">Связаться со мной</a></li>
 						</ul>
 					</nav>
 					<address class="contacts">
 						<ul class="ul-contacts">
-							<li class="li-contact li-title"><span>Контакты</span></li>
-							<li class="li-contact email"><a href="" class="a-nav">kostya_po@mail.ru</a></li>
-							<li class="li-contact phone"><a href="" class="a-nav">+79135600774</a></li>
-							<li class="li-contact skype"><a href="" class="a-nav">smallkot</a></li>
+							<li class="li-contact">
+								<span class="title">Контакты</span>
+							</li>
+							
+							<li class="li-contact email">
+								<div class="li-div-contact">
+									<a href="mailto:kostya_po@mail.ru" class="a-contact">
+										<div class="div-img sprite sprite-mail"></div>
+										<span class="span-a-contact">kostya_po@mail.ru</span>
+									</a>
+								</div>
+							</li>
+
+							<li class="li-contact phone">
+								<div class="li-div-contact">
+									<a href="tel:+79135600774" class="a-contact">
+										<div class="div-img sprite sprite-phone"></div>
+										<span class="span-a-contact">+79135600774</span>
+									</a>
+								</div>
+							</li>
+
+							<li class="li-contact skype">
+								<div class="li-div-contact">
+									<a href="skype:smallkot?chat" class="a-contact">
+										<div class="div-img sprite sprite-skype"></div>
+										<span class="span-a-contact">smallkot</span>
+									</a>
+								</div>
+							</li>
 						</ul>
 					</address>
 				</aside>
@@ -60,39 +88,43 @@
 				<div class="general-seсtion float-right" >
 					<section class="section-block">
 						<h1 class="title-section">Основная информация</h1>
-						<div class="section-body clerfix">
-							<div class="img-block">
+						<div class="section-body clearfix">
+							<div class="img-block float-left">
 								<div class="avatar-box">
-									<img src="images/avatar.png" alt="Kostyan" class="avatar">
+									<img src="images/avatar.jpg" alt="Kostyan" class="avatar">
 								</div>
 							</div>
-							<div class="info-block">
+							 
+							<div class="info-block float-right">
 								<ul class="info-list">
 									<li class="info-item clearfix">
-										<div class="what">11</div>
-										<div class="info">22</div>
+										<div class="what float-left">Меня зовут:</div>
+										<div class="info float-left">Позняк Константин Леонидович</div>
 									</li>
 									<li class="info-item clearfix">
-										<div class="what">22</div>
-										<div class="info">33</div>
+										<div class="what float-left">Мой возраст:</div>
+										<div class="info float-left">29</div>
 									</li>
 									<li class="info-item clearfix">
-										<div class="what">44</div>
-										<div class="info">55</div>
+										<div class="what float-left">Мой город:</div>
+										<div class="info float-left">о.Диксон, Красноярск</div>
 									</li>
 									<li class="info-item clearfix">
-										<div class="what">66</div>
-										<div class="info">77</div>
+										<div class="what float-left">Моя специализация:</div>
+										<div class="info float-left">game developer, ios developer, frontend developer</div>
 									</li>
 									<li class="info-item clearfix">
-										<div class="what"></div>
-										<div class="info">
+										<div class="what float-left">Клучивые навыки:</div>
+										<div class="info float-left">
 											<ul class="skills-list">
-												<li class="skill-item">1</li>
-												<li class="skill-item">2</li>
-												<li class="skill-item">3</li>
-												<li class="skill-item">4</li>
-												<li class="skill-item">5</li>
+												<li class="skill-item">С++</li>
+												<li class="skill-item">Objective-C</li>
+												<li class="skill-item">JavaScript</li>
+												<li class="skill-item">HTML</li>
+												<li class="skill-item">CSS</li>
+												<li class="skill-item">C#</li>
+												<li class="skill-item">Cocos2d-x</li>
+												<li class="skill-item">Unity3d</li>
 											</ul>
 										</div>
 									</li>
@@ -102,10 +134,11 @@
 					</section>
 				</div>
 			</div>
-
-
 		</div>
-		<footer class="footer-block">
+		
+	</div>
+	<footer class="footer-block">
+			<hr class="gradient">
 			<div class="container-footer">
 				<div class="lock">
 					<a href="/authorization.html">
@@ -115,7 +148,6 @@
 				<div class="copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</div>
 			</div>
 		</footer>
-	</div>
 	<script src="bower/jquery/dist/jquery.js"></script>
 	<script src="js/main.js"></script>
 </body>
