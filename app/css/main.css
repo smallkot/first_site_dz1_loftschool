@@ -324,6 +324,7 @@ clearfix:after{
 
 .info-block{
 	width: 400px;
+	margin-left: 25px;
 }
 
 .info-list{
@@ -379,6 +380,47 @@ clearfix:after{
 	min-width: 40px;
 	text-align: center;
 }
+
+/* --- work ------- */
+
+.work-list{
+	list-style: none;
+}
+
+.work-item{
+	
+}
+
+.work-container-img{
+	
+}
+
+.work-img{
+	vertical-align: middle;
+}
+
+.title-work-list{
+	/*list-style: none;*/
+
+	margin-left: 30px;
+	width: 500px;
+}
+
+.title-work-item{
+	
+}
+
+.work-title{
+	font-family: 'fira_sans';
+  	font-size: 15px;
+}
+
+.work-title-company{
+	font-family: 'fira_sansbook';
+	font-style: normal;
+  	font-size: 17px;	
+}
+
 
 /*==================================*/
 .footer-block {
