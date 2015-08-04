@@ -7,12 +7,14 @@
 .sprite-bag {
     width: 36px;
     height: 34px;
+    margin-left: 4px;
     background-position: -5px -5px;
 }
 
 .sprite-doc {
     width: 26px;
     height: 32px;
+    margin-left: 9px;
     background-position: -51px -5px;
 }
 

@@ -383,34 +383,37 @@ clearfix:after{
 
 /* --- work ------- */
 
+.work-block{
+	width: 100%;
+	margin-left: 25px;
+}
+
 .work-list{
 	list-style: none;
 }
 
 .work-item{
-	
+	position: relative;
+	margin-bottom: 28px;
 }
 
 .work-container-img{
-	
+		
 }
 
 .work-img{
-	vertical-align: middle;
+	top:50%;
+	position: absolute;
+	margin-top: -17px;
 }
 
 .title-work-list{
-	/*list-style: none;*/
-
-	margin-left: 30px;
-	width: 500px;
+	list-style: none;
+	margin-left: 66px;
+	width: 400px;
 }
 
-.title-work-item{
-	
-}
-
-.work-title{
+.work-when{
 	font-family: 'fira_sans';
   	font-size: 15px;
 }
