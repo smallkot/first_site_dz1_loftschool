@@ -1,0 +1,27 @@
+.div-section-title{
+	background-color: #48cbe8;
+	border-radius: 4px 4px 0 0;
+	position: relative;
+	border-bottom-style: solid;
+	border-bottom-width: 20px;
+	border-bottom-color: #67dffa;
+}
+
+.title{
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	padding: 50px 0 45px 0;
+	margin: 0;
+}
+
+.user-form{
+	width: 402px;
+	margin: 0 auto;
+}
+
+.user-name{
+	display: block;
+}
