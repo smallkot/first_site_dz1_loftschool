@@ -25,6 +25,7 @@
 	font-family: 'fira_sansbook';
 	font-size: 19px; 
 	color: #fff;
+
 }
 
 .div-user-name{
@@ -38,6 +39,7 @@
 
 #user-name{
 	width: 100%;
+	padding: 10px 17px;
 }
 
 .div-email{
@@ -47,6 +49,8 @@
 
 #email{
 	width: 100%;
+	padding: 10px 17px;
+	outline: 0;
 }
 
 .wrap-form-element{
@@ -62,6 +66,7 @@
 	min-width: 402px;
 	max-width: 402px;
 	min-height: 180px;
+	padding: 10px 14px;
 }
 
 .div-captcha{
@@ -86,19 +91,14 @@
 #captcha{
 	width: 100%;
 	height: 100%;
-	border-radius: 4px;
-	border: 1px solid #48cbe8;
-	background: #fff;
-	color: #6ad2eb;
 	padding: 0 9px;
-	box-sizing: border-box;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-    color: red;
+    color:#54cee9;
    } 
 input::-moz-placeholder, textarea::-moz-placeholder {
-    color: red;
+    color:#54cee9;
 }
 
 .wrap-submit-button{
@@ -158,8 +158,16 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 }
 
-.form-elemnt{
+.form-element{
+	border: 1px solid #48cbe8;
+	font-size: 13px;
 
+	border-radius: 4px;
+	/*border: 1px solid #48cbe8;*/
+	background: #fff;
+	color: #6ad2eb;
+	
+	box-sizing: border-box;
 }
 
 

@@ -1,0 +1,16 @@
+.div-site-img{
+	border: 2px solid #3ba8c0;
+	border-radius: 4px;
+	width: 178px;
+	height: 125px;
+	overflow: hidden;
+}
+
+.site-block{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.site-container{
+	padding: 0 20px;
+}
