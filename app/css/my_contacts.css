@@ -32,8 +32,8 @@
 	width: 192px;
 }
 
-.user-name{
-	
+.label{
+	color: #959aa8;
 }
 
 #user-name{
@@ -116,6 +116,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 	box-shadow: 0 2px 0 #3ba8c0;
 	min-width: 138px;
 	box-sizing: border-box;
+	outline: 0;
 }
 
 .button_submit:hover{
@@ -130,7 +131,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 .button_reset{
 	top:0px;
-	/*bottom: 0px;*/
+	right:0px;
 	position: absolute;
 
 	border-radius: 3px;
@@ -140,6 +141,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 	box-shadow: 0 2px 0 #687b8f;
 	min-width: 138px;
 	box-sizing: border-box;
+	outline: 0;
 }
 
 .button_reset:hover{
@@ -152,9 +154,14 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 	box-shadow: 0 -2px 0 #687b8f;	
 }
 
+.botton_reset:focus{
+
+}
+
 .form-elemnt{
 
 }
+
 
 
 
