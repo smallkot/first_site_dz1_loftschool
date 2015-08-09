@@ -97,23 +97,42 @@
 							<div class="section-body">
 								<form action="#" class="user-form">
 								    <div class="wrap-form-element clearfix">
-								      <div class="float-left">
-								        <label for="user-name">Имя</label>
-								        <input type="text" id="user-name" name="user-name" class="form-element"
-								        placeholder="user" value="" required/>
-								      </div>
-								      <div class="float-right">
-								        <label for="email">Email</label>
-								        <input type="email" id="email" name="email" class="form-element"
-								        placeholder="example@example.com" value="" required/>
-								      </div>
+									    <div class="div-user-name float-left">
+									        <label for="user-name">Имя</label>
+									        <input type="text" id="user-name" name="user-name" class="form-element"
+									        placeholder="user" value=""/>
+									    </div>
+									    <div class="div-email float-right">
+									        <label for="email">Email</label>
+									    	<input type="email" id="email" name="email" class="form-element" placeholder="example@example.com" value=""/>
+									    </div>
 								    </div>
 								    <div class="wrap-message">
-								      <label for="message">Сообщение</label>
-								      <textarea id="message" name="message" class="form-element" placeholder="текст сообщения"></textarea>
+								      	<label for="message">Сообщение</label>
+								      	<textarea id="message" name="message" class="form-element" placeholder="текст сообщения"></textarea>
 								    </div>
-								    <div class="wrap-submit-button">
-								      <input type="submit" id="submit-form" name="submit-form" class="submit-button" value="Отправить"/>
+
+									<div class="div-captcha clearfix">
+										<div class="label-captcha">
+								        	<label for="captcha">Введите код, указанный на картинке</label>
+								        </div>
+								        <div class="clearfix">
+								        	<div class="div-img-captcha float-left">
+								        		<img src="images/avatar.jpg" alt="captcha">
+								        	</div>
+								        	<div class="div-captcha-input float-right">
+								    			<input type="text" id="captcha" name="captcha" class="form-element" placeholder="Введите код" value=""/>
+								    		</div>
+								    	</div>
+								    </div>
+
+								    <div class="wrap-submit-button clearfix">
+								      	<div class="float-left">
+								      		<button class="button_submit" type="submit">Отправить</button>
+								      	</div>
+										<div class="float-right">
+											<button class="button_reset" type="reset">Отчистить</button>
+								      	</div>
 								    </div>
 								</form>
 							</div>
