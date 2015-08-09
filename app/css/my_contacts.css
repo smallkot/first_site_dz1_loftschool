@@ -22,6 +22,9 @@
 .user-form{
 	width: 402px;
 	margin: 0 auto;
+	font-family: 'fira_sansbook';
+	font-size: 19px; 
+	color: #fff;
 }
 
 .div-user-name{
@@ -98,7 +101,14 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     color: red;
 }
 
+.wrap-submit-button{
+	position: relative;
+}
+
 .button_submit{
+	top:0px;
+	position: absolute;
+
 	border-radius: 3px;
 	border-style: none;
 
@@ -106,6 +116,40 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 	box-shadow: 0 2px 0 #3ba8c0;
 	min-width: 138px;
 	box-sizing: border-box;
+}
+
+.button_submit:hover{
+	top:2px;
+	box-shadow: 0 0px 0 #3ba8c0;
+}
+
+.button_submit:active{
+	top:4px;
+	box-shadow: 0 -2px 0 #3ba8c0;	
+}
+
+.button_reset{
+	top:0px;
+	/*bottom: 0px;*/
+	position: absolute;
+
+	border-radius: 3px;
+	border-style: none;
+
+	background-color: #849db5;
+	box-shadow: 0 2px 0 #687b8f;
+	min-width: 138px;
+	box-sizing: border-box;
+}
+
+.button_reset:hover{
+	top:2px;
+	box-shadow: 0 0px 0 #687b8f;
+}
+
+.button_reset:active{
+	top:4px;
+	box-shadow: 0 -2px 0 #687b8f;	
 }
 
 .form-elemnt{
