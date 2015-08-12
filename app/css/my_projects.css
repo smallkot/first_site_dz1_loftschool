@@ -1,13 +1,13 @@
 .div-site-img{
 	border: 2px solid #3ba8c0;
 	border-radius: 4px;
-	width: 176px;
+	
 	height: 125px;
 	overflow: hidden;
 }
 
 .site-block{
-	
+	width: 176px;
 }
 
 .site-container-list{
@@ -17,10 +17,34 @@
 
 .site-container-item{
 	margin-left: 30px;
+	margin-bottom: 44px;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .section-body{
 	width: 610px;
 	margin: 0 auto;
+}
+
+.div_site_link{
+	text-align: center;
+}
+
+.div_site_description{
+	text-align: center;
+	width: 176px;
+}
+
+.add_site_item{
+	border: 2px dashed #3ba8c0;
+	border-radius: 4px;
+	width: 176px;
+	height: 125px;
+}
+
+.add_site_project{
+	text-align: center;
+	vertical-align: center;
+	background: url(../images/site.png) no-repeat;
 }
