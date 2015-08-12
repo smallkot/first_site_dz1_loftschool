@@ -1,16 +1,26 @@
 .div-site-img{
 	border: 2px solid #3ba8c0;
 	border-radius: 4px;
-	width: 178px;
+	width: 176px;
 	height: 125px;
 	overflow: hidden;
 }
 
 .site-block{
-	display: inline-block;
-	margin-right: 30px;
+	
 }
 
-.site-container{
-	padding: 0 20px;
+.site-container-list{
+	margin-left: -30px;
+	list-style: none;
+}
+
+.site-container-item{
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.section-body{
+	width: 610px;
+	margin: 0 auto;
 }
