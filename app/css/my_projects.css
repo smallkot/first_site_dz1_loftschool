@@ -20,6 +20,7 @@
 	margin-bottom: 44px;
 	display: inline-block;
 	vertical-align: top;
+	text-align: center;
 }
 
 .section-body{
@@ -31,20 +32,56 @@
 	text-align: center;
 }
 
+.site-img-link{
+	width: 179px;
+	height: 125px;
+	overflow: hidden;
+}
+
+.site-img-link-title{
+	border: 1px solid #fff;
+}
+
+.site-img-link-title:hover{
+	
+}
+
 .div_site_description{
 	text-align: center;
 	width: 176px;
 }
 
 .add_site_item{
-	border: 2px dashed #3ba8c0;
-	border-radius: 4px;
 	width: 176px;
-	height: 125px;
+    height: 129px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px dashed #3ba8c0;
+    border-radius: 4px;
+    position: relative;
+    background-color: #edf8fc;
+    box-shadow: 0 0 0 -2px rgba(59,168,192,.7);
+}
+
+.add_site_project:before{
+	content: '';
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: 0 auto 14px;
+	background: url(../images/add_project.png) no-repeat;
 }
 
 .add_site_project{
-	text-align: center;
-	vertical-align: center;
-	background: url(../images/site.png) no-repeat;
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    line-height: 1;
+    color: #3ba8c0;
+    font-weight: 300;
+    text-decoration: none;
+    padding-top: 34px;
 }
